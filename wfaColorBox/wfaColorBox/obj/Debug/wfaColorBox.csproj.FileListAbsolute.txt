@@ -1,0 +1,10 @@
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\bin\Debug\wfaColorBox.exe.config
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\bin\Debug\wfaColorBox.exe
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\bin\Debug\wfaColorBox.pdb
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\obj\Debug\wfaColorBox.csproj.AssemblyReference.cache
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\obj\Debug\wfaColorBox.Form1.resources
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\obj\Debug\wfaColorBox.Properties.Resources.resources
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\obj\Debug\wfaColorBox.csproj.GenerateResource.cache
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\obj\Debug\wfaColorBox.csproj.CoreCompileInputs.cache
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\obj\Debug\wfaColorBox.exe
+C:\Users\sofya\source\repos\wfaColorBox\wfaColorBox\obj\Debug\wfaColorBox.pdb

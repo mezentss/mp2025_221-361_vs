@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\wpfColorBox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3AC8FB-B936-46BB-9643-2C1ABDA6E1C0}|wpfColorBox\\wpfColorBox.csproj|c:\\users\\sofya\\source\\repos\\wpfcolorbox\\wpfcolorbox\\mainwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CA3AC8FB-B936-46BB-9643-2C1ABDA6E1C0}|wpfColorBox\\wpfColorBox.csproj|solutionrelative:wpfcolorbox\\mainwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3AC8FB-B936-46BB-9643-2C1ABDA6E1C0}|wpfColorBox\\wpfColorBox.csproj|c:\\users\\sofya\\source\\repos\\wpfcolorbox\\wpfcolorbox\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3AC8FB-B936-46BB-9643-2C1ABDA6E1C0}|wpfColorBox\\wpfColorBox.csproj|solutionrelative:wpfcolorbox\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 497,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 33,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfColorBox\\wpfColorBox\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "wpfColorBox\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfColorBox\\wpfColorBox\\MainWindow.xaml",
+              "RelativeToolTip": "wpfColorBox\\MainWindow.xaml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAvwBEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T08:28:40.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfColorBox\\wpfColorBox\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wpfColorBox\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfColorBox\\wpfColorBox\\MainWindow.xaml.cs",
+              "RelativeToolTip": "wpfColorBox\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAlwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:28:40.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 135,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

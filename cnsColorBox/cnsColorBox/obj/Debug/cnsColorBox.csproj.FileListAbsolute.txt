@@ -1,0 +1,9 @@
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\bin\Debug\cnsColorBox.exe.config
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\bin\Debug\cnsColorBox.exe
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\bin\Debug\cnsColorBox.pdb
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\obj\Debug\cnsColorBox.csproj.AssemblyReference.cache
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\obj\Debug\cnsColorBox.Properties.Resources.resources
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\obj\Debug\cnsColorBox.csproj.GenerateResource.cache
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\obj\Debug\cnsColorBox.csproj.CoreCompileInputs.cache
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\obj\Debug\cnsColorBox.exe
+C:\Users\sofya\source\repos\cnsColorBox\cnsColorBox\obj\Debug\cnsColorBox.pdb

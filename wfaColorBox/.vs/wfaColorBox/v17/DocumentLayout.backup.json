@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|c:\\users\\sofya\\source\\repos\\wfacolorbox\\wfacolorbox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|solutionrelative:wfacolorbox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|c:\\users\\sofya\\source\\repos\\wfacolorbox\\wfacolorbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|solutionrelative:wfacolorbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfacolorbox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|solutionrelative:wfacolorbox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfacolorbox\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|solutionrelative:wfacolorbox\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfacolorbox\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35B798B-FFB9-47F3-853D-94CE7342C1CE}|wfaColorBox\\wfaColorBox.csproj|solutionrelative:wfacolorbox\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 497,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "wfaColorBox\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.Designer.cs",
+              "RelativeToolTip": "wfaColorBox\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:50:52.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.resx",
+              "RelativeDocumentMoniker": "wfaColorBox\\Form1.resx",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.resx",
+              "RelativeToolTip": "wfaColorBox\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-30T12:50:49.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.cs",
+              "RelativeDocumentMoniker": "wfaColorBox\\Form1.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.cs",
+              "RelativeToolTip": "wfaColorBox\\Form1.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:45:07.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.cs",
+              "RelativeDocumentMoniker": "wfaColorBox\\Form1.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "wfaColorBox\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:44:27.983Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 33,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Program.cs",
+              "RelativeDocumentMoniker": "wfaColorBox\\Program.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaColorBox\\wfaColorBox\\Program.cs",
+              "RelativeToolTip": "wfaColorBox\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:10:35.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 135,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

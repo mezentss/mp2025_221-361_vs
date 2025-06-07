@@ -1,0 +1,59 @@
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.exe
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.deps.json
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.runtimeconfig.json
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.dll
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.pdb
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.Form1.resources
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.GenerateResource.cache
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfoInputs.cache
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfo.cs
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.CoreCompileInputs.cache
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.sourcelink.json
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.dll
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\refint\wfaPaint.dll
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.pdb
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.genruntimeconfig.cache
+D:\CSProjects\Voreger\mp2025_221-361_vs\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\ref\wfaPaint.dll
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.exe
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.deps.json
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.runtimeconfig.json
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.dll
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.pdb
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.Form1.resources
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.GenerateResource.cache
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfoInputs.cache
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfo.cs
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.sourcelink.json
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.dll
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\refint\wfaPaint.dll
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.pdb
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.genruntimeconfig.cache
+C:\Users\Виктория\OneDrive\Рабочий стол\Учёба\Текущий сем\Мобильная разработка\vs_projects\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\ref\wfaPaint.dll
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.exe
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.deps.json
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.runtimeconfig.json
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.dll
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\bin\Debug\net9.0-windows\wfaPaint.pdb
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.Form1.resources
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.GenerateResource.cache
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfoInputs.cache
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfo.cs
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.CoreCompileInputs.cache
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.dll
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\refint\wfaPaint.dll
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.pdb
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.genruntimeconfig.cache
+C:\Users\konop\Desktop\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\ref\wfaPaint.dll
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.Form1.resources
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.GenerateResource.cache
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfoInputs.cache
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.AssemblyInfo.cs
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.csproj.CoreCompileInputs.cache
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.dll
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\refint\wfaPaint.dll
+C:\Users\sofya\source\repos\wfaPaint\wfaPaint\obj\Debug\net9.0-windows\wfaPaint.pdb

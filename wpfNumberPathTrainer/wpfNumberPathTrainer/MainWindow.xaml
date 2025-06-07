@@ -1,0 +1,140 @@
+﻿<Window x:Class="wpfNumberPathTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfNumberPathTrainer"
+        mc:Ignorable="d"
+        Title="Тренажёр нахождения пути числа" Height="600" Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="#F0F0F0">
+    <Window.Resources>
+        <!-- Стиль для кнопок калькулятора -->
+        <Style x:Key="CalculatorButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="5"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{TemplateBinding BorderBrush}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1976D2"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Информационная панель -->
+        <Border Grid.Row="0" 
+                Background="White" 
+                CornerRadius="10"
+                Padding="15"
+                Margin="0,0,0,20">
+            <StackPanel>
+                <TextBlock x:Name="InfoTextBlock" 
+                           Text="Найдите путь из чисел, сумма которых равна целевому числу" 
+                           FontSize="18" 
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"/>
+                <TextBlock x:Name="TimeTextBlock" 
+                           Text="" 
+                           FontSize="16" 
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"
+                           Margin="0,10,0,0"
+                           Foreground="#FF5722"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Панель статистики -->
+        <Border Grid.Row="1" 
+                Background="White" 
+                CornerRadius="10"
+                Padding="15"
+                Margin="0,0,0,20">
+            <TextBlock x:Name="StatsTextBlock" 
+                       Text="Правильных ответов: 0" 
+                       FontSize="18" 
+                       HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- Панель выбранных чисел -->
+        <Border Grid.Row="2" 
+                Background="White" 
+                CornerRadius="10"
+                Padding="15"
+                Margin="0,0,0,20">
+            <TextBlock x:Name="SelectedNumbersTextBlock" 
+                       Text="Выбранные числа: " 
+                       FontSize="18" 
+                       HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- Игровое поле -->
+        <Grid Grid.Row="3">
+            <Grid x:Name="GameFieldGrid" Background="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Canvas x:Name="LinesCanvas" IsHitTestVisible="False" Background="Transparent" Panel.ZIndex="1"/>
+        </Grid>
+
+        <!-- Панель кнопок -->
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Кнопка проверки -->
+            <Button Grid.Column="0"
+                    Content="✓" 
+                    Click="CheckAnswerButton_Click"
+                    Style="{StaticResource CalculatorButtonStyle}"
+                    Background="#4CAF50"
+                    Margin="5,0"
+                    HorizontalAlignment="Right"/>
+
+            <!-- Кнопка новой игры -->
+            <Button Grid.Column="1"
+                    Content="🔄" 
+                    Click="NewGameButton_Click"
+                    Style="{StaticResource CalculatorButtonStyle}"
+                    Background="#2196F3"
+                    Margin="5,0"
+                    HorizontalAlignment="Left"/>
+        </Grid>
+    </Grid>
+</Window>

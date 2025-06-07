@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "wpfNumberPathTrainer/1.0.0": {
+        "runtime": {
+          "wpfNumberPathTrainer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wpfNumberPathTrainer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\managers\\shapemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\managers\\shapemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\managers\\colormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\managers\\colormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\heartdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\heartdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\textdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\textdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\stardrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\stardrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\shapedrawerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\shapedrawerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\selectiondrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\selectiondrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\rectangledrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\rectangledrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\pentagondrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\pentagondrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\pencildrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\pencildrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\eraserdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\eraserdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\ellipsedrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\ellipsedrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\linedrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\linedrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\hexagondrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\hexagondrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\diamonddrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\diamonddrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\shape\\arrowdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\shape\\arrowdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\managers\\historymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\managers\\historymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\managers\\imagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\managers\\imagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|c:\\users\\sofya\\source\\repos\\wfapaint\\wfapaint\\managers\\drawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445597B5-32D6-4948-BEDC-6B16DA5EE985}|wfaPaint\\wfaPaint.csproj|solutionrelative:wfapaint\\managers\\drawingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShapeManager.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\ShapeManager.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Managers\\ShapeManager.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\ShapeManager.cs",
+              "RelativeToolTip": "wfaPaint\\Managers\\ShapeManager.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:54:34.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColorManager.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\ColorManager.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Managers\\ColorManager.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\ColorManager.cs",
+              "RelativeToolTip": "wfaPaint\\Managers\\ColorManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:01:16.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeartDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\HeartDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\HeartDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\HeartDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\HeartDrawer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:21:31.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TextDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\TextDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\TextDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\TextDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\TextDrawer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:13:00.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RectangleDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\RectangleDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\RectangleDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\RectangleDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\RectangleDrawer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwBIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:57:59.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PentagonDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\PentagonDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\PentagonDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\PentagonDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\PentagonDrawer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:51:18.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LineDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\LineDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\LineDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\LineDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\LineDrawer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:49:42.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EllipseDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\EllipseDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\EllipseDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\EllipseDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\EllipseDrawer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:21:10.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EraserDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\EraserDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\EraserDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\EraserDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\EraserDrawer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:19:37.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SelectionDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\SelectionDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\SelectionDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\SelectionDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\SelectionDrawer.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAqwFYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:42:28.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StarDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\StarDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\StarDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\StarDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\StarDrawer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:03:58.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HexagonDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\HexagonDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\HexagonDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\HexagonDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\HexagonDrawer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:46:55.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShapeDrawerBase.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\ShapeDrawerBase.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\ShapeDrawerBase.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\ShapeDrawerBase.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\ShapeDrawerBase.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:37:37.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DiamondDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\DiamondDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\DiamondDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\DiamondDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\DiamondDrawer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:20:58.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PencilDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\PencilDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\PencilDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\PencilDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\PencilDrawer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:16:44.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ArrowDrawer.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\ArrowDrawer.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Shape\\ArrowDrawer.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Shape\\ArrowDrawer.cs",
+              "RelativeToolTip": "wfaPaint\\Shape\\ArrowDrawer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwB8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:18:19.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HistoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\HistoryManager.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Managers\\HistoryManager.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\HistoryManager.cs",
+              "RelativeToolTip": "wfaPaint\\Managers\\HistoryManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA8wFAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:22:42.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ImageManager.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\ImageManager.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Managers\\ImageManager.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\ImageManager.cs",
+              "RelativeToolTip": "wfaPaint\\Managers\\ImageManager.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAQwGIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:08:29.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DrawingManager.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\DrawingManager.cs",
+              "RelativeDocumentMoniker": "wfaPaint\\Managers\\DrawingManager.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Managers\\DrawingManager.cs",
+              "RelativeToolTip": "wfaPaint\\Managers\\DrawingManager.cs",
+              "ViewState": "AgIAABcBAAAAAAAAAAAAwC0BAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:15:30.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

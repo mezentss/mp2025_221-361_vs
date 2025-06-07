@@ -1,0 +1,6 @@
+C:\Users\sofya\source\repos\prjTrenerCount\wfaTrenerCount\obj\Debug\net9.0-windows\wfaTrenerCount.Form1.resources
+C:\Users\sofya\source\repos\prjTrenerCount\wfaTrenerCount\obj\Debug\net9.0-windows\wfaTrenerCount.csproj.GenerateResource.cache
+C:\Users\sofya\source\repos\prjTrenerCount\wfaTrenerCount\obj\Debug\net9.0-windows\wfaTrenerCount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofya\source\repos\prjTrenerCount\wfaTrenerCount\obj\Debug\net9.0-windows\wfaTrenerCount.AssemblyInfoInputs.cache
+C:\Users\sofya\source\repos\prjTrenerCount\wfaTrenerCount\obj\Debug\net9.0-windows\wfaTrenerCount.AssemblyInfo.cs
+C:\Users\sofya\source\repos\prjTrenerCount\wfaTrenerCount\obj\Debug\net9.0-windows\wfaTrenerCount.csproj.CoreCompileInputs.cache

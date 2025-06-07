@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\cnsColorBox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43974977-BCFB-4248-8D40-69E68AF79439}|cnsColorBox\\cnsColorBox.csproj|c:\\users\\sofya\\source\\repos\\cnscolorbox\\cnscolorbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43974977-BCFB-4248-8D40-69E68AF79439}|cnsColorBox\\cnsColorBox.csproj|solutionrelative:cnscolorbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43974977-BCFB-4248-8D40-69E68AF79439}|cnsColorBox\\cnsColorBox.csproj|c:\\users\\sofya\\source\\repos\\cnscolorbox\\cnscolorbox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43974977-BCFB-4248-8D40-69E68AF79439}|cnsColorBox\\cnsColorBox.csproj|solutionrelative:cnscolorbox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 497,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\cnsColorBox\\cnsColorBox\\Program.cs",
+              "RelativeDocumentMoniker": "cnsColorBox\\Program.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\cnsColorBox\\cnsColorBox\\Program.cs",
+              "RelativeToolTip": "cnsColorBox\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T09:29:47.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\cnsColorBox\\cnsColorBox\\Form1.cs",
+              "RelativeDocumentMoniker": "cnsColorBox\\Form1.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\cnsColorBox\\cnsColorBox\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "cnsColorBox\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:03:53.22Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 33,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 135,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

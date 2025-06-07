@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\wpfGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\gamesettings..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\gamesettings..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\pathfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\pathfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|c:\\users\\sofya\\source\\repos\\wpfgame\\wpfgame\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9937D6A0-45D4-4D1C-A2EE-D5E65C3248C8}|wpfGame\\wpfGame.csproj|solutionrelative:wpfgame\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wpfGame\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "wpfGame\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:56:14.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\Class1.cs",
+              "RelativeDocumentMoniker": "wpfGame\\Class1.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\Class1.cs",
+              "RelativeToolTip": "wpfGame\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:54:35.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "wpfGame\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\MainWindow.xaml*",
+              "RelativeToolTip": "wpfGame\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T09:53:49.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\Program.cs",
+              "RelativeDocumentMoniker": "wpfGame\\Program.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\Program.cs*",
+              "RelativeToolTip": "wpfGame\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:50:33.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\GameEngine.cs",
+              "RelativeDocumentMoniker": "wpfGame\\GameEngine.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\GameEngine.cs*",
+              "RelativeToolTip": "wpfGame\\GameEngine.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:49:16.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PathFinder.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\PathFinder.cs",
+              "RelativeDocumentMoniker": "wpfGame\\PathFinder.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\PathFinder.cs*",
+              "RelativeToolTip": "wpfGame\\PathFinder.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:48:36.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\GameState.cs",
+              "RelativeDocumentMoniker": "wpfGame\\GameState.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\GameState.cs*",
+              "RelativeToolTip": "wpfGame\\GameState.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:47:58.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DifficultyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\DifficultyLevel.cs",
+              "RelativeDocumentMoniker": "wpfGame\\DifficultyLevel.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\DifficultyLevel.cs*",
+              "RelativeToolTip": "wpfGame\\DifficultyLevel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:47:16.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameSettings..cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\GameSettings..cs",
+              "RelativeDocumentMoniker": "wpfGame\\GameSettings..cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wpfGame\\wpfGame\\GameSettings..cs",
+              "RelativeToolTip": "wpfGame\\GameSettings..cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:45:51.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
