@@ -121,8 +121,6 @@ namespace wpfNumberPathTrainer
                     FontWeight = FontWeights.Bold
                 };
                 btn.PreviewMouseLeftButtonDown += NumberButton_MouseLeftButtonDown;
-                btn.MouseEnter += NumberButton_MouseEnter;
-                btn.PreviewMouseLeftButtonUp += NumberButton_MouseLeftButtonUp;
                 Grid.SetRow(btn, row);
                 Grid.SetColumn(btn, col);
                 GameFieldGrid.Children.Add(btn);
@@ -132,59 +130,75 @@ namespace wpfNumberPathTrainer
 
         private void NumberButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (isDrawing) return;
-            foreach (var b in gridButtons)
-                b.Background = new SolidColorBrush(Color.FromRgb(33, 150, 243)); // сброс цвета
-
             var btn = sender as Button;
             var (row, col) = ((int, int))btn.Tag;
-            selectedPath.Clear();
+
+            // Если это первая клетка в пути
+            if (selectedPath.Count == 0)
+            {
+                selectedPath.Add((row, col));
+                btn.Background = Brushes.LightSkyBlue;
+                UpdateSelectedNumbersDisplay();
+                DrawPathLine();
+                return;
+            }
+
+            // Проверяем, является ли клетка соседней с последней выбранной
+            var lastCell = selectedPath.Last();
+            if (!IsNeighbor(lastCell, (row, col)))
+            {
+                MessageBox.Show("Выберите соседнюю клетку!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Проверяем, не выбрана ли уже эта клетка
+            if (selectedPath.Contains((row, col)))
+            {
+                MessageBox.Show("Эта клетка уже выбрана!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Добавляем клетку в путь
             selectedPath.Add((row, col));
             btn.Background = Brushes.LightSkyBlue;
-            isDrawing = true;
             UpdateSelectedNumbersDisplay();
             DrawPathLine();
-            btn.CaptureMouse();
+
+            // Проверяем, достигнута ли нужная длина пути
+            if (selectedPath.Count == currentPathLength)
+            {
+                var nums = selectedPath.Select(idx => numbers[idx.row * gridSize + idx.col]).ToList();
+                int sum = nums.Sum();
+
+                if (sum == targetSum)
+                {
+                    totalCorrectAnswers++;
+                    UpdateStatsDisplay();
+                    MessageBox.Show("Правильно! Начинаем новую игру.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                    StartNewGame();
+                }
+                else
+                {
+                    MessageBox.Show($"Неправильно! Сумма: {sum}. Попробуйте еще раз.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    selectedPath.Clear();
+                    UpdateSelectedNumbersDisplay();
+                    DrawPathLine();
+
+                    // Сбрасываем цвет всех кнопок
+                    foreach (var b in gridButtons)
+                        b.Background = new SolidColorBrush(Color.FromRgb(33, 150, 243));
+                }
+            }
         }
 
         private void NumberButton_MouseEnter(object sender, MouseEventArgs e)
         {
-            if (!isDrawing || e.LeftButton != MouseButtonState.Pressed) return;
-            var btn = sender as Button;
-            var (row, col) = ((int, int))btn.Tag;
-            if (selectedPath.Contains((row, col))) return;
-            if (selectedPath.Count > 0 && !IsNeighbor(selectedPath.Last(), (row, col))) return;
-            selectedPath.Add((row, col));
-            btn.Background = Brushes.LightSkyBlue;
-            UpdateSelectedNumbersDisplay();
-            DrawPathLine();
+            // Этот метод больше не используется
         }
 
         private void NumberButton_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            if (!isDrawing) return;
-            isDrawing = false;
-            foreach (var btn in gridButtons)
-                btn.ReleaseMouseCapture();
-            UpdateSelectedNumbersDisplay();
-            DrawPathLine();
-            // Автоматическая проверка суммы
-            var nums = selectedPath.Select(idx => numbers[idx.row * gridSize + idx.col]).ToList();
-            int sum = nums.Sum();
-            if (selectedPath.Count == currentPathLength && sum == targetSum)
-            {
-                totalCorrectAnswers++;
-                UpdateStatsDisplay();
-                MessageBox.Show("Правильно! Начинаем новую игру.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
-                StartNewGame();
-            }
-            else if (selectedPath.Count == currentPathLength)
-            {
-                MessageBox.Show($"Неправильно! Сумма: {sum}. Попробуйте еще раз.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
-                selectedPath.Clear();
-                UpdateSelectedNumbersDisplay();
-                DrawPathLine();
-            }
+            // Этот метод больше не используется
         }
 
         private bool IsNeighbor((int row, int col) a, (int row, int col) b)
@@ -198,13 +212,16 @@ namespace wpfNumberPathTrainer
         {
             LinesCanvas.Children.Clear();
             if (selectedPath.Count < 2) return;
+
             var polyline = new Polyline
             {
                 Stroke = Brushes.DeepSkyBlue,
                 StrokeThickness = 6,
                 StrokeEndLineCap = PenLineCap.Round,
-                StrokeStartLineCap = PenLineCap.Round
+                StrokeStartLineCap = PenLineCap.Round,
+                StrokeLineJoin = PenLineJoin.Round
             };
+
             foreach (var tuple in selectedPath)
             {
                 int row = tuple.row;
@@ -213,9 +230,13 @@ namespace wpfNumberPathTrainer
                     var tag = (ValueTuple<int, int>)button.Tag;
                     return tag.Item1 == row && tag.Item2 == col;
                 });
-                var pos = btn.TransformToAncestor(LinesCanvas).Transform(new Point(btn.Width / 2, btn.Height / 2));
-                polyline.Points.Add(pos);
+
+                // Получаем координаты центра кнопки относительно Canvas
+                var transform = btn.TransformToAncestor(LinesCanvas);
+                var centerPoint = transform.Transform(new Point(btn.ActualWidth / 2, btn.ActualHeight / 2));
+                polyline.Points.Add(centerPoint);
             }
+
             LinesCanvas.Children.Add(polyline);
         }
 

@@ -1,0 +1,26 @@
+<UserControl x:Class="wpfNumberPath.Controls.NumberNodeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             MinHeight="30" MinWidth="30" Height="54" Width="54">
+    <Grid MouseDown="MainButton_Click">
+        <Ellipse x:Name="Circle"
+                 Width="44" Height="44"
+                 Fill="White"
+                 StrokeThickness="0">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="8" ShadowDepth="2" Color="#22000000"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <TextBlock x:Name="NumberText"
+                   Text="{Binding Value}"
+                   FontSize="14"
+                   FontWeight="Bold"
+                   Foreground="#444"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   TextAlignment="Center"/>
+    </Grid>
+</UserControl> 

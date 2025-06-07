@@ -1,0 +1,87 @@
+﻿<Window x:Class="wpfNumberPath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfNumberPath"
+        mc:Ignorable="d"
+        Title="Тренажёр нахождение пути числа" MinHeight="600" MinWidth="320" MaxWidth="420" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" Background="#FAFAFA">
+    <Window.Resources>
+        <Style x:Key="NoHoverButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="12">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Transparent"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="Transparent"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <DockPanel LastChildFill="True">
+        <!-- Верхняя панель -->
+        <Border DockPanel.Dock="Top" Background="White" BorderBrush="#E0E0E0" BorderThickness="0,0,0,1" Padding="0,0,0,0">
+            <Grid Height="64">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="64"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="64"/>
+                </Grid.ColumnDefinitions>
+                <!-- Кнопка подсказки (жёлтый круг с вопросом) -->
+                <Button x:Name="HintButton" Grid.Column="0" Width="48" Height="48" Click="HintButton_Click" ToolTip="Подсказка" BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverButton}" Background="#FFD600" Margin="8,0,8,0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                    <TextBlock Text="?" FontSize="28" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+                <!-- Индикатор уровня -->
+                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Path Data="M 6,24 Q 12,6 24,24 Q 36,42 42,24" Stroke="#2196F3" StrokeThickness="2" Fill="Transparent" Width="28" Height="28" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                    <TextBlock x:Name="LevelCounterText" FontSize="22" FontWeight="Bold" Foreground="#2196F3" VerticalAlignment="Center"/>
+                </StackPanel>
+                <!-- Таймер -->
+                <Border Grid.Column="2" Background="Transparent" Width="110" Height="48" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,8,0">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <Grid Width="36" Height="36" VerticalAlignment="Center" Margin="0,0,4,0">
+                            <Ellipse Width="36" Height="36" Fill="#FFFDE7"/>
+                            <Ellipse Width="32" Height="32" Fill="#FFEB3B"/>
+                            <Path Data="M 18,18 L 28,10" Stroke="#FBC02D" StrokeThickness="3" StrokeStartLineCap="Round"/>
+                            <Ellipse Width="8" Height="8" Fill="#FBC02D" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <TextBlock x:Name="TimerText" FontSize="26" FontWeight="Bold" Foreground="#FFB300" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+        <!-- Кнопка выхода (крестик) внизу по центру -->
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,24">
+            <Button x:Name="ExitButton" Width="56" Height="56" Click="ExitButton_Click" ToolTip="Выйти на стартовую страницу" BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverButton}" Background="#ECECEC">
+                <Path Data="M 16,16 L 40,40 M 40,16 L 16,40" Stroke="#B0BEC5" StrokeThickness="5" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+            </Button>
+        </StackPanel>
+        <!-- Основная часть: вопрос, формула, поле -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <!-- Вопрос -->
+            <TextBlock x:Name="TargetSumText" Grid.Row="0" FontSize="18" FontWeight="Bold" Foreground="#2196F3" TextAlignment="Center" TextWrapping="Wrap" Margin="0,24,0,8" HorizontalAlignment="Center"/>
+            <!-- Формула -->
+            <TextBlock x:Name="FormulaText" Grid.Row="1" FontSize="28" FontWeight="Bold" Foreground="#222" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+            <!-- Сетка с числами -->
+            <Border x:Name="GameFieldBorder" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" CornerRadius="32" Background="White">
+                <Grid x:Name="NumbersGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>

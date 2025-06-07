@@ -115,26 +115,16 @@
         <Grid Grid.Row="4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Кнопка проверки -->
-            <Button Grid.Column="0"
-                    Content="✓" 
-                    Click="CheckAnswerButton_Click"
-                    Style="{StaticResource CalculatorButtonStyle}"
-                    Background="#4CAF50"
-                    Margin="5,0"
-                    HorizontalAlignment="Right"/>
-
             <!-- Кнопка новой игры -->
-            <Button Grid.Column="1"
+            <Button Grid.Column="0"
                     Content="🔄" 
                     Click="NewGameButton_Click"
                     Style="{StaticResource CalculatorButtonStyle}"
                     Background="#2196F3"
                     Margin="5,0"
-                    HorizontalAlignment="Left"/>
+                    HorizontalAlignment="Center"/>
         </Grid>
     </Grid>
 </Window>
