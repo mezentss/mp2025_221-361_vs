@@ -8,6 +8,7 @@ using System.Windows.Shapes;
 using wpfNumberPath.Controls;
 using System.Windows.Threading;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace wpfNumberPath
 {
@@ -22,6 +23,8 @@ namespace wpfNumberPath
         private int timeLeft;
         private int levelsPassed = 0;
         private bool isGameMode => (SelectedGameMode ?? GameManager.GameMode.Training) == GameManager.GameMode.Testing;
+        private bool isMouseDown = false;
+        private NumberNodeControl? lastHoveredControl = null;
 
         public GameManager.Difficulty? SelectedDifficulty { get; set; }
         public GameManager.GameMode? SelectedGameMode { get; set; }
@@ -75,7 +78,9 @@ namespace wpfNumberPath
                 var control = new Controls.NumberNodeControl();
                 control.SetNode(number);
                 control.Margin = new Thickness(8);
-                control.NumberSelected += NumberControl_NumberSelected;
+                control.MouseDown += NumberControl_MouseDown;
+                control.MouseUp += NumberControl_MouseUp;
+                control.MouseMove += NumberControl_MouseMove;
                 Grid.SetRow(control, (int)number.Position.Y);
                 Grid.SetColumn(control, (int)number.Position.X);
                 NumbersGrid.Children.Add(control);
@@ -83,9 +88,45 @@ namespace wpfNumberPath
             }
         }
 
-        private async void NumberControl_NumberSelected(object sender, RoutedEventArgs e)
+        private void NumberControl_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            var control = sender as Controls.NumberNodeControl;
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                isMouseDown = true;
+                var control = sender as NumberNodeControl;
+                if (control != null)
+                {
+                    lastHoveredControl = control;
+                    SelectNumber(control);
+                }
+            }
+        }
+
+        private void NumberControl_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Released && isMouseDown)
+            {
+                isMouseDown = false;
+                lastHoveredControl = null;
+                CheckPath();
+            }
+        }
+
+        private void NumberControl_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isMouseDown)
+            {
+                var control = sender as NumberNodeControl;
+                if (control != null && control != lastHoveredControl)
+                {
+                    lastHoveredControl = control;
+                    SelectNumber(control);
+                }
+            }
+        }
+
+        private void SelectNumber(NumberNodeControl control)
+        {
             if (control == null) return;
 
             // Проверка на соседство
@@ -96,7 +137,6 @@ namespace wpfNumberPath
                 int dy = (int)Math.Abs(control.Node.Position.Y - last.Position.Y);
                 if (dx > 1 || dy > 1 || (dx == 0 && dy == 0))
                 {
-                    // Не соседняя — игнорируем клик
                     return;
                 }
             }
@@ -111,7 +151,10 @@ namespace wpfNumberPath
             }
 
             UpdateVisuals();
+        }
 
+        private async void CheckPath()
+        {
             int sum = gameManager.SelectedNumbers.Sum(n => n.Value);
             if (sum == gameManager.TargetSum)
             {
@@ -242,7 +285,7 @@ namespace wpfNumberPath
 
         private void UpdateLevelCounter()
         {
-            LevelCounterText.Text = $"Пройдено: {levelsPassed}";
+            LevelCounterText.Text = levelsPassed.ToString();
         }
 
         private async void HintButton_Click(object sender, RoutedEventArgs e)

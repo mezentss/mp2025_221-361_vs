@@ -90,9 +90,27 @@ namespace wpfNumberPath
                     break;
             }
             SolutionPath.Clear();
+
+            // Начинаем с случайного числа
+            var startNumber = availableNumbers[random.Next(availableNumbers.Count)];
+            SolutionPath.Add(startNumber);
+            currentSum += startNumber.Value;
+            availableNumbers.Remove(startNumber);
+
+            // Строим путь, добавляя только соседние числа
             while (SolutionPath.Count < pathLength && availableNumbers.Count > 0)
             {
-                var nextNumber = availableNumbers[random.Next(availableNumbers.Count)];
+                var lastNumber = SolutionPath.Last();
+                var adjacentNumbers = availableNumbers.Where(n => 
+                {
+                    int dx = (int)Math.Abs(n.Position.X - lastNumber.Position.X);
+                    int dy = (int)Math.Abs(n.Position.Y - lastNumber.Position.Y);
+                    return dx <= 1 && dy <= 1 && (dx == 1 || dy == 1); // Только соседние по горизонтали или вертикали
+                }).ToList();
+
+                if (adjacentNumbers.Count == 0) break;
+
+                var nextNumber = adjacentNumbers[random.Next(adjacentNumbers.Count)];
                 if (currentSum + nextNumber.Value <= maxSum)
                 {
                     SolutionPath.Add(nextNumber);

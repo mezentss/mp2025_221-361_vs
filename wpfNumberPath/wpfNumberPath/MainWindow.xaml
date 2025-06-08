@@ -35,36 +35,36 @@
             <Grid Height="64">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="64"/>
-                    <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="64"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="90"/>
                 </Grid.ColumnDefinitions>
                 <!-- Кнопка подсказки (жёлтый круг с вопросом) -->
                 <Button x:Name="HintButton" Grid.Column="0" Width="48" Height="48" Click="HintButton_Click" ToolTip="Подсказка" BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverButton}" Background="#FFD600" Margin="8,0,8,0" VerticalAlignment="Center" HorizontalAlignment="Left">
-                    <TextBlock Text="?" FontSize="28" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock Text="?" FontSize="28" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"/>
                 </Button>
-                <!-- Индикатор уровня -->
-                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <Path Data="M 6,24 Q 12,6 24,24 Q 36,42 42,24" Stroke="#2196F3" StrokeThickness="2" Fill="Transparent" Width="28" Height="28" VerticalAlignment="Center" Margin="0,0,8,0"/>
-                    <TextBlock x:Name="LevelCounterText" FontSize="22" FontWeight="Bold" Foreground="#2196F3" VerticalAlignment="Center"/>
-                </StackPanel>
+                <!-- Счетчик уровней -->
+                <TextBlock x:Name="LevelCounterText" Grid.Column="1" FontSize="22" FontWeight="Bold" Foreground="#2196F3" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                <!-- Пустое пространство -->
+                <Grid Grid.Column="2"/>
                 <!-- Таймер -->
-                <Border Grid.Column="2" Background="Transparent" Width="110" Height="48" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,8,0">
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
-                        <Grid Width="36" Height="36" VerticalAlignment="Center" Margin="0,0,4,0">
-                            <Ellipse Width="36" Height="36" Fill="#FFFDE7"/>
-                            <Ellipse Width="32" Height="32" Fill="#FFEB3B"/>
-                            <Path Data="M 18,18 L 28,10" Stroke="#FBC02D" StrokeThickness="3" StrokeStartLineCap="Round"/>
-                            <Ellipse Width="8" Height="8" Fill="#FBC02D" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Border Grid.Column="3" Background="Transparent" Width="80" Height="40" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,16,0" Panel.ZIndex="999">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Grid Width="28" Height="28" VerticalAlignment="Center" Margin="0,0,4,0">
+                            <Ellipse Width="28" Height="28" Fill="#FFFDE7"/>
+                            <Ellipse Width="24" Height="24" Fill="#FFEB3B"/>
+                            <Path Data="M 14,14 L 22,8" Stroke="#FBC02D" StrokeThickness="2" StrokeStartLineCap="Round"/>
+                            <Ellipse Width="6" Height="6" Fill="#FBC02D" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Grid>
-                        <TextBlock x:Name="TimerText" FontSize="26" FontWeight="Bold" Foreground="#FFB300" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                        <TextBlock x:Name="TimerText" FontSize="20" FontWeight="Bold" Foreground="#FFB300" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
                     </StackPanel>
                 </Border>
             </Grid>
         </Border>
         <!-- Кнопка выхода (крестик) внизу по центру -->
-        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,24">
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,24">
             <Button x:Name="ExitButton" Width="56" Height="56" Click="ExitButton_Click" ToolTip="Выйти на стартовую страницу" BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverButton}" Background="#ECECEC">
-                <Path Data="M 16,16 L 40,40 M 40,16 L 16,40" Stroke="#B0BEC5" StrokeThickness="5" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+                <Path Data="M 16,16 L 40,40 M 40,16 L 16,40" Stroke="#B0BEC5" StrokeThickness="5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
         </StackPanel>
         <!-- Основная часть: вопрос, формула, поле -->
