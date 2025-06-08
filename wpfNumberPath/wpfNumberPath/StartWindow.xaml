@@ -57,7 +57,18 @@
             </Border>
             <Viewbox Stretch="Uniform" Height="60">
                 <Border CornerRadius="18" Background="#4CAF50">
-                    <Button x:Name="StartButton" Content="Старт" FontSize="22" Height="56" Width="220" Margin="0,10,0,0" Click="StartButton_Click" Background="Transparent" Foreground="White" FontWeight="Bold" BorderThickness="0"/>
+                    <Button x:Name="StartButton"
+                            Content="Старт"
+                            FontSize="22"
+                            Height="66"
+                            Width="220"
+                            Click="StartButton_Click"
+                            Background="Transparent"
+                            Foreground="White"
+                            FontWeight="Bold"
+                            BorderThickness="0"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Center"/>
                 </Border>
             </Viewbox>
         </StackPanel>

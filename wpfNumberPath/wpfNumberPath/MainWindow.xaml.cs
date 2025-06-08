@@ -52,10 +52,12 @@ namespace wpfNumberPath
             if (gameMode == GameManager.GameMode.Training)
             {
                 if (levelTimer != null) levelTimer.Stop();
+                TimerBorder.Visibility = Visibility.Collapsed;
             }
             else
             {
                 StartLevelTimer();
+                TimerBorder.Visibility = Visibility.Visible;
             }
         }
 
@@ -277,9 +279,10 @@ namespace wpfNumberPath
         {
             if (!isGameMode)
             {
-                TimerText.Text = "";
+                TimerBorder.Visibility = Visibility.Collapsed;
                 return;
             }
+            TimerBorder.Visibility = Visibility.Visible;
             TimerText.Text = $"⏰ {timeLeft / 60:D2}:{timeLeft % 60:D2}";
         }
 

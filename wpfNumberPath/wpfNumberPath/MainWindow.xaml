@@ -46,9 +46,9 @@
                 <!-- Счетчик уровней -->
                 <TextBlock x:Name="LevelCounterText" Grid.Column="1" FontSize="22" FontWeight="Bold" Foreground="#2196F3" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
                 <!-- Пустое пространство -->
-                <Grid Grid.Column="2"/>
+                <Grid Grid.Column="2" Grid.ColumnSpan="2" Margin="0,0,45,0"/>
                 <!-- Таймер -->
-                <Border Grid.Column="3" Background="Transparent" Width="80" Height="40" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,16,0" Panel.ZIndex="999">
+                <Border Grid.Column="2" Background="Transparent" Width="137" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,15,10,0" Panel.ZIndex="2" Grid.ColumnSpan="2">
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <Grid Width="28" Height="28" VerticalAlignment="Center" Margin="0,0,4,0">
                             <Ellipse Width="28" Height="28" Fill="#FFFDE7"/>
@@ -56,15 +56,39 @@
                             <Path Data="M 14,14 L 22,8" Stroke="#FBC02D" StrokeThickness="2" StrokeStartLineCap="Round"/>
                             <Ellipse Width="6" Height="6" Fill="#FBC02D" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Grid>
-                        <TextBlock x:Name="TimerText" FontSize="20" FontWeight="Bold" Foreground="#FFB300" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                        <TextBlock x:Name="TimerText"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   Foreground="#FFB300"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"
+                                   TextAlignment="Center"/>
                     </StackPanel>
                 </Border>
             </Grid>
         </Border>
         <!-- Кнопка выхода (крестик) внизу по центру -->
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,24">
-            <Button x:Name="ExitButton" Width="56" Height="56" Click="ExitButton_Click" ToolTip="Выйти на стартовую страницу" BorderThickness="0" Cursor="Hand" Style="{StaticResource NoHoverButton}" Background="#ECECEC">
-                <Path Data="M 16,16 L 40,40 M 40,16 L 16,40" Stroke="#B0BEC5" StrokeThickness="5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button x:Name="ExitButton"
+                    Width="56"
+                    Height="56"
+                    Click="ExitButton_Click"
+                    ToolTip="Выйти на стартовую страницу"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Style="{StaticResource NoHoverButton}"
+                    Background="#ECECEC"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center">
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="53">
+                    <Path Data="M 16,16 L 40,40 M 40,16 L 16,40"
+                          Stroke="#B0BEC5"
+                          StrokeThickness="5"
+                          StrokeStartLineCap="Round"
+                          StrokeEndLineCap="Round"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center" Height="30" Stretch="Fill" Width="30"/>
+                </Grid>
             </Button>
         </StackPanel>
         <!-- Основная часть: вопрос, формула, поле -->
@@ -80,7 +104,26 @@
             <TextBlock x:Name="FormulaText" Grid.Row="1" FontSize="28" FontWeight="Bold" Foreground="#222" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center"/>
             <!-- Сетка с числами -->
             <Border x:Name="GameFieldBorder" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" CornerRadius="32" Background="White">
-                <Grid x:Name="NumbersGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <Grid x:Name="NumbersGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Border x:Name="TimerBorder"
+                            Background="Transparent"
+                            Width="80"
+                            Height="40"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Visibility="Collapsed"
+                            Panel.ZIndex="2">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Grid Width="28" Height="28" VerticalAlignment="Center" Margin="0,0,4,0">
+                                <Ellipse Width="28" Height="28" Fill="#FFFDE7"/>
+                                <Ellipse Width="24" Height="24" Fill="#FFEB3B"/>
+                                <Path Data="M 14,14 L 22,8" Stroke="#FBC02D" StrokeThickness="2" StrokeStartLineCap="Round"/>
+                                <Ellipse Width="6" Height="6" Fill="#FBC02D" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+
+                        </StackPanel>
+                    </Border>
+                </Grid>
             </Border>
         </Grid>
     </DockPanel>
