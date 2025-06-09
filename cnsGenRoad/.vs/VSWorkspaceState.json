@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\cnsGenRoad"
   ],
-  "SelectedNode": "\\cnsGenRoad.sln",
+  "SelectedNode": "\\cnsGenRoad\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

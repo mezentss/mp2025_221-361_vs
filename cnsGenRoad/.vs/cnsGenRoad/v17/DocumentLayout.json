@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\cnsGenRoad\\",
+  "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\cnsGenRoad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F187AEA-E2A9-46CE-8FD6-4FB486828EE2}|cnsGenRoad\\cnsGenRoad.csproj|c:\\users\\sofya\\source\\repos\\cnsgenroad\\cnsgenroad\\roadgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F187AEA-E2A9-46CE-8FD6-4FB486828EE2}|cnsGenRoad\\cnsGenRoad.csproj|solutionrelative:cnsgenroad\\roadgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\cnsGenRoad\\cnsGenRoad\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cnsGenRoad\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F187AEA-E2A9-46CE-8FD6-4FB486828EE2}|cnsGenRoad\\cnsGenRoad.csproj|c:\\users\\sofya\\source\\repos\\cnsgenroad\\cnsgenroad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F187AEA-E2A9-46CE-8FD6-4FB486828EE2}|cnsGenRoad\\cnsGenRoad.csproj|solutionrelative:cnsgenroad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\cnsGenRoad\\cnsGenRoad\\RoadGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cnsGenRoad\\RoadGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -21,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 497,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,37 +31,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wfaPaint\\wfaPaint\\Form1.cs",
               "RelativeDocumentMoniker": "..\\wfaPaint\\wfaPaint\\Form1.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\wfaPaint\\wfaPaint\\Form1.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wfaPaint\\wfaPaint\\Form1.cs",
               "RelativeToolTip": "..\\wfaPaint\\wfaPaint\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T17:25:54.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RoadGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\cnsGenRoad\\cnsGenRoad\\RoadGenerator.cs",
-              "RelativeDocumentMoniker": "cnsGenRoad\\RoadGenerator.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\cnsGenRoad\\cnsGenRoad\\RoadGenerator.cs",
-              "RelativeToolTip": "cnsGenRoad\\RoadGenerator.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAswBAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T17:19:05.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T17:25:54.2Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RoadGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\cnsGenRoad\\cnsGenRoad\\RoadGenerator.cs",
+              "RelativeDocumentMoniker": "cnsGenRoad\\RoadGenerator.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\cnsGenRoad\\cnsGenRoad\\RoadGenerator.cs",
+              "RelativeToolTip": "cnsGenRoad\\RoadGenerator.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAswBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T17:19:05.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\cnsGenRoad\\cnsGenRoad\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\cnsGenRoad\\cnsGenRoad\\Program.cs",
               "RelativeDocumentMoniker": "cnsGenRoad\\Program.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\cnsGenRoad\\cnsGenRoad\\Program.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\cnsGenRoad\\cnsGenRoad\\Program.cs",
               "RelativeToolTip": "cnsGenRoad\\Program.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAowAQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T17:19:01.196Z",
               "EditorCaption": ""

@@ -18,8 +18,11 @@ namespace wpfTetris
         private Tetromino? next = null;
         private DispatcherTimer? timer = null;
         private int score = 0;
+        private int bombCount = 0;
         private bool isPaused = false;
+        private bool isExperimentalMode = false;
         private readonly int cellSize = 30;
+        private const int BOMB_SCORE_THRESHOLD = 500;
 
         public MainWindow()
         {
@@ -31,7 +34,10 @@ namespace wpfTetris
         {
             field = new TetrisField();
             score = 0;
+            bombCount = 0;
             ScoreText.Text = "0";
+            BombCountText.Text = "0";
+            UseBombButton.IsEnabled = false;
             next = GetRandomTetromino();
             SpawnTetromino();
             timer = new DispatcherTimer();
@@ -42,8 +48,28 @@ namespace wpfTetris
 
         private Tetromino GetRandomTetromino()
         {
-            var values = Enum.GetValues(typeof(TetrominoType));
-            return new Tetromino((TetrominoType)values.GetValue(new Random().Next(values.Length)));
+            if (!isExperimentalMode)
+            {
+                var values = Enum.GetValues(typeof(TetrominoType));
+                var random = new Random();
+                TetrominoType type;
+                do
+                {
+                    type = (TetrominoType)values.GetValue(random.Next(7)); // Only use first 7 types in classic mode
+                } while (type == TetrominoType.Bomb || type == TetrominoType.Single || type == TetrominoType.Plus);
+                return new Tetromino(type);
+            }
+            else
+            {
+                var values = Enum.GetValues(typeof(TetrominoType));
+                var random = new Random();
+                TetrominoType type;
+                do
+                {
+                    type = (TetrominoType)values.GetValue(random.Next(values.Length));
+                } while (type == TetrominoType.Bomb); // Don't spawn bombs randomly
+                return new Tetromino(type);
+            }
         }
 
         private void SpawnTetromino()
@@ -76,12 +102,34 @@ namespace wpfTetris
             }
             else if (dy == 1)
             {
-                field.PlaceTetromino(current);
-                int lines = field.ClearLines();
-                if (lines > 0)
+                if (current.Type == TetrominoType.Bomb)
                 {
-                    score += lines * 100;
-                    ScoreText.Text = score.ToString();
+                    field.Clear();
+                    bombCount--;
+                    BombCountText.Text = bombCount.ToString();
+                    UseBombButton.IsEnabled = bombCount > 0;
+                }
+                else
+                {
+                    field.PlaceTetromino(current);
+                    int lines = field.ClearLines();
+                    if (lines > 0)
+                    {
+                        score += lines * 100;
+                        ScoreText.Text = score.ToString();
+                        
+                        // Check for bomb reward in experimental mode
+                        if (isExperimentalMode && score >= BOMB_SCORE_THRESHOLD)
+                        {
+                            int newBombs = score / BOMB_SCORE_THRESHOLD - (score - lines * 100) / BOMB_SCORE_THRESHOLD;
+                            if (newBombs > 0)
+                            {
+                                bombCount += newBombs;
+                                BombCountText.Text = bombCount.ToString();
+                                UseBombButton.IsEnabled = true;
+                            }
+                        }
+                    }
                 }
                 SpawnTetromino();
             }
@@ -216,6 +264,38 @@ namespace wpfTetris
             timer?.Start();
             isPaused = false;
             Focus();
+        }
+
+        private void GameModeToggle_Click(object sender, RoutedEventArgs e)
+        {
+            if (GameModeToggle.IsChecked == true)
+            {
+                GameModeToggle.Content = "Эксперимент";
+                isExperimentalMode = true;
+            }
+            else
+            {
+                GameModeToggle.Content = "Классический";
+                isExperimentalMode = false;
+            }
+
+            if (timer != null && timer.IsEnabled)
+            {
+                timer.Stop();
+                InitGame();
+                timer.Start();
+            }
+        }
+
+        private void UseBombButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (bombCount > 0 && current != null)
+            {
+                current = new Tetromino(TetrominoType.Bomb);
+                current.X = 3;
+                current.Y = 0;
+                Draw();
+            }
         }
 
         protected override void OnActivated(EventArgs e)

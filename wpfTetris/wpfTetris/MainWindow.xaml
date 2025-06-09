@@ -5,17 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpfTetris"
         mc:Ignorable="d"
-        Title="Тетрис" Height="600" Width="481">
+        Title="Тетрис" Height="630" Width="600">
     <Grid Background="#222">
-        <Border BorderBrush="Gold" BorderThickness="6" CornerRadius="8" Margin="20,20,200,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <Border Grid.Column="0" BorderBrush="Gold" BorderThickness="6" CornerRadius="8" Margin="20">
             <Canvas x:Name="GameCanvas" Width="300" Height="540" Background="#111"/>
         </Border>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="0,20,10,0" VerticalAlignment="Top" Width="140">
+        
+        <StackPanel Grid.Column="1" Orientation="Vertical" Margin="0,20,20,0" VerticalAlignment="Top" Width="200">
+            <TextBlock Text="Режим игры:" FontSize="22" Foreground="Gold" Margin="0,0,0,10"/>
+            <ToggleButton x:Name="GameModeToggle" Content="Классический" FontSize="18" Margin="0,0,0,20" 
+                         Click="GameModeToggle_Click" Background="#333" Foreground="White" 
+                         BorderBrush="Gold" BorderThickness="2" Padding="10,5"/>
+            
             <TextBlock Text="Счёт:" FontSize="22" Foreground="Gold" Margin="0,0,0,10"/>
-            <TextBlock x:Name="ScoreText" Text="0" FontSize="32" Foreground="White" FontWeight="Bold" Margin="0,0,0,30"/>
-            <Button x:Name="StartButton" Content="Старт" FontSize="18" Margin="0,0,0,10" Click="StartButton_Click"/>
-            <Button x:Name="PauseButton" Content="Пауза" FontSize="18" Margin="0,0,0,10" Click="PauseButton_Click"/>
-            <Button x:Name="RestartButton" Content="Рестарт" FontSize="18" Click="RestartButton_Click"/>
+            <TextBlock x:Name="ScoreText" Text="0" FontSize="32" Foreground="White" FontWeight="Bold" Margin="0,0,0,20"/>
+            
+            <TextBlock Text="Бомбы:" FontSize="22" Foreground="Gold" Margin="0,0,0,10"/>
+            <TextBlock x:Name="BombCountText" Text="0" FontSize="32" Foreground="White" FontWeight="Bold" Margin="0,0,0,20"/>
+            <Button x:Name="UseBombButton" Content="Использовать бомбу" FontSize="16" Margin="0,0,0,20" 
+                    Click="UseBombButton_Click" IsEnabled="False" Background="#333" Foreground="White" 
+                    BorderBrush="Gold" BorderThickness="2" Padding="10,5"/>
+            
+            <Button x:Name="StartButton" Content="Старт" FontSize="18" Margin="0,0,0,10" 
+                    Click="StartButton_Click" Background="#333" Foreground="White" 
+                    BorderBrush="Gold" BorderThickness="2" Padding="10,5"/>
+            <Button x:Name="PauseButton" Content="Пауза" FontSize="18" Margin="0,0,0,10" 
+                    Click="PauseButton_Click" Background="#333" Foreground="White" 
+                    BorderBrush="Gold" BorderThickness="2" Padding="10,5"/>
+            <Button x:Name="RestartButton" Content="Рестарт" FontSize="18" 
+                    Click="RestartButton_Click" Background="#333" Foreground="White" 
+                    BorderBrush="Gold" BorderThickness="2" Padding="10,5"/>
         </StackPanel>
     </Grid>
 </Window>

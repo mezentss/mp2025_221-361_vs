@@ -2,7 +2,7 @@ using System.Windows.Media;
 
 namespace wpfTetris
 {
-    public enum TetrominoType { I, O, T, S, Z, J, L }
+    public enum TetrominoType { I, O, T, S, Z, J, L, Single, Plus, Bomb }
 
     public class Tetromino
     {
@@ -39,6 +39,12 @@ namespace wpfTetris
                     return new int[,] { { 1, 0, 0 }, { 1, 1, 1 } };
                 case TetrominoType.L:
                     return new int[,] { { 0, 0, 1 }, { 1, 1, 1 } };
+                case TetrominoType.Single:
+                    return new int[,] { { 1 } };
+                case TetrominoType.Plus:
+                    return new int[,] { { 0, 1, 0 }, { 1, 1, 1 }, { 0, 1, 0 } };
+                case TetrominoType.Bomb:
+                    return new int[,] { { 1 } };
                 default:
                     return new int[0, 0];
             }
@@ -55,12 +61,17 @@ namespace wpfTetris
                 case TetrominoType.Z: return Colors.Red;
                 case TetrominoType.J: return Colors.Blue;
                 case TetrominoType.L: return Colors.Orange;
+                case TetrominoType.Single: return Colors.White;
+                case TetrominoType.Plus: return Colors.Magenta;
+                case TetrominoType.Bomb: return Colors.Black;
                 default: return Colors.White;
             }
         }
 
         public void Rotate()
         {
+            if (Type == TetrominoType.Single || Type == TetrominoType.Bomb) return;
+            
             int row = Shape.GetLength(0);
             int col = Shape.GetLength(1);
             int[,] rotated = new int[col, row];
