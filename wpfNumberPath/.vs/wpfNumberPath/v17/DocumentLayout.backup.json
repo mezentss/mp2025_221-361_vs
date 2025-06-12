@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfnumberpath\\wpfnumberpath\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|solutionrelative:wpfnumberpath\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfnumberpath\\wpfnumberpath\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|solutionrelative:wpfnumberpath\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfnumberpath\\wpfnumberpath\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|solutionrelative:wpfnumberpath\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfnumberpath\\wpfnumberpath\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|solutionrelative:wpfnumberpath\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfnumberpath\\wpfnumberpath\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,10 +46,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfnumberpath\\wpfnumberpath\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|solutionrelative:wpfnumberpath\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfnumberpath\\wpfnumberpath\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7C190B17-B1A1-4E22-83EB-5813F5220470}|wpfNumberPath\\wpfNumberPath.csproj|solutionrelative:wpfnumberpath\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -67,60 +67,11 @@
         },
         {
           "DockedHeight": 33,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StartWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
-              "RelativeDocumentMoniker": "wpfNumberPath\\StartWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
-              "RelativeToolTip": "wpfNumberPath\\StartWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:48:51.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\GameManager.cs",
-              "RelativeDocumentMoniker": "wpfNumberPath\\GameManager.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\GameManager.cs",
-              "RelativeToolTip": "wpfNumberPath\\GameManager.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:39:30.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\App.xaml.cs",
-              "RelativeDocumentMoniker": "wpfNumberPath\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\App.xaml.cs",
-              "RelativeToolTip": "wpfNumberPath\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:39:22.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NumberNodeControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
-              "RelativeDocumentMoniker": "wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
-              "RelativeToolTip": "wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:39:07.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NumberNodeControl.xaml",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\Controls\\NumberNodeControl.xaml",
               "RelativeDocumentMoniker": "wpfNumberPath\\Controls\\NumberNodeControl.xaml",
@@ -131,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "NumberNode.cs",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\Models\\NumberNode.cs",
               "RelativeDocumentMoniker": "wpfNumberPath\\Models\\NumberNode.cs",
@@ -143,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\wpfTetris\\wpfTetris\\MainWindow.xaml.cs",
@@ -156,14 +107,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "wpfNumberPath\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml",
+              "RelativeToolTip": "wpfNumberPath\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T17:11:09.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "wpfNumberPath\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml.cs",
-              "RelativeToolTip": "wpfNumberPath\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "wpfNumberPath\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAmwNUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:40:26.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wpfNumberPath\\StartWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
+              "RelativeToolTip": "wpfNumberPath\\StartWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T17:40:26.037Z"
+              "WhenOpened": "2025-06-09T10:48:51.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NumberNodeControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
+              "RelativeDocumentMoniker": "wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
+              "RelativeToolTip": "wpfNumberPath\\Controls\\NumberNodeControl.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:39:07.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\App.xaml.cs",
+              "RelativeDocumentMoniker": "wpfNumberPath\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\App.xaml.cs",
+              "RelativeToolTip": "wpfNumberPath\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:39:22.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\GameManager.cs",
+              "RelativeDocumentMoniker": "wpfNumberPath\\GameManager.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\GameManager.cs",
+              "RelativeToolTip": "wpfNumberPath\\GameManager.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:39:30.209Z"
             },
             {
               "$type": "Document",
@@ -178,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "wpfNumberPath\\AssemblyInfo.cs",
@@ -190,33 +210,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\App.xaml",
               "RelativeDocumentMoniker": "wpfNumberPath\\App.xaml",
               "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\App.xaml",
               "RelativeToolTip": "wpfNumberPath\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T17:40:41.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "wpfNumberPath\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml",
-              "RelativeToolTip": "wpfNumberPath\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T17:11:09.963Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2025-06-08T17:40:41.477Z",
+              "EditorCaption": ""
             }
           ]
         }

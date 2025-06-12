@@ -67,21 +67,8 @@
         },
         {
           "DockedHeight": 33,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StartWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
-              "RelativeDocumentMoniker": "wpfNumberPath\\StartWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
-              "RelativeToolTip": "wpfNumberPath\\StartWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:48:51.724Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -118,10 +105,6 @@
               "WhenOpened": "2025-06-09T10:38:40.661Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
@@ -141,10 +124,30 @@
               "RelativeDocumentMoniker": "wpfNumberPath\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\MainWindow.xaml.cs",
               "RelativeToolTip": "wpfNumberPath\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAwwGwAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAmwNUAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T17:40:26.037Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wpfNumberPath\\StartWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfNumberPath\\wpfNumberPath\\StartWindow.xaml.cs",
+              "RelativeToolTip": "wpfNumberPath\\StartWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:48:51.724Z"
             },
             {
               "$type": "Document",
@@ -216,10 +219,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-08T17:40:41.477Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

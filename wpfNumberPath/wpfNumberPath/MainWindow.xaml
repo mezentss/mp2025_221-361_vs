@@ -104,7 +104,16 @@
             <TextBlock x:Name="FormulaText" Grid.Row="1" FontSize="28" FontWeight="Bold" Foreground="#222" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center"/>
             <!-- Сетка с числами -->
             <Border x:Name="GameFieldBorder" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" CornerRadius="32" Background="White">
-                <Grid x:Name="NumbersGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid>
+                    <Canvas x:Name="LinesCanvas" Panel.ZIndex="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <Grid x:Name="NumbersGrid" Panel.ZIndex="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
                     <Border x:Name="TimerBorder"
                             Background="Transparent"
                             Width="80"
@@ -112,7 +121,7 @@
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
                             Visibility="Collapsed"
-                            Panel.ZIndex="2">
+                            Panel.ZIndex="3">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Grid Width="28" Height="28" VerticalAlignment="Center" Margin="0,0,4,0">
                                 <Ellipse Width="28" Height="28" Fill="#FFFDE7"/>
@@ -120,7 +129,6 @@
                                 <Path Data="M 14,14 L 22,8" Stroke="#FBC02D" StrokeThickness="2" StrokeStartLineCap="Round"/>
                                 <Ellipse Width="6" Height="6" Fill="#FBC02D" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </Grid>
-
                         </StackPanel>
                     </Border>
                 </Grid>

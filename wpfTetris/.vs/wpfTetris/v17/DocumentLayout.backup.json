@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpftetris\\wpftetris\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|solutionrelative:wpftetris\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpftetris\\wpftetris\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|solutionrelative:wpftetris\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpftetris\\wpftetris\\tetromino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|solutionrelative:wpftetris\\tetromino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpftetris\\wpftetris\\tetrisfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|solutionrelative:wpftetris\\tetrisfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpftetris\\wpftetris\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|solutionrelative:wpftetris\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpftetris\\wpftetris\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|solutionrelative:wpftetris\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{880BBE35-30CE-4C3B-A9F1-049C1CB12039}|wpfTetris\\wpfTetris.csproj|c:\\users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpftetris\\wpftetris\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,19 +44,20 @@
         },
         {
           "DockedHeight": 33,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TetrisField.cs",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\TetrisField.cs",
               "RelativeDocumentMoniker": "wpfTetris\\TetrisField.cs",
               "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\TetrisField.cs",
               "RelativeToolTip": "wpfTetris\\TetrisField.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:41:21.602Z"
+              "WhenOpened": "2025-06-09T10:41:21.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,31 +85,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Tetromino.cs",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\Tetromino.cs",
               "RelativeDocumentMoniker": "wpfTetris\\Tetromino.cs",
               "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\Tetromino.cs",
               "RelativeToolTip": "wpfTetris\\Tetromino.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T20:07:21.415Z"
+              "WhenOpened": "2025-06-08T20:07:21.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\MainWindow.xaml",
               "RelativeDocumentMoniker": "wpfTetris\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\MainWindow.xaml*",
-              "RelativeToolTip": "wpfTetris\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\MainWindow.xaml",
+              "RelativeToolTip": "wpfTetris\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-08T20:01:52.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sofya\\source\\repos\\mp2025_221-361_vs-1\\wpfTetris\\wpfTetris\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "wpfTetris\\MainWindow.xaml.cs",
@@ -116,8 +118,7 @@
               "RelativeToolTip": "wpfTetris\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T20:01:50.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T20:01:50.577Z"
             },
             {
               "$type": "Bookmark",

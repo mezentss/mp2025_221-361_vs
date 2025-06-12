@@ -67,6 +67,7 @@ namespace wpfNumberPath
             NumbersGrid.RowDefinitions.Clear();
             NumbersGrid.ColumnDefinitions.Clear();
             numberControls.Clear();
+            LinesCanvas.Children.Clear();
 
             int gridSize = (int)Math.Sqrt(gameManager.Numbers.Count);
             for (int i = 0; i < gridSize; i++)
@@ -186,6 +187,42 @@ namespace wpfNumberPath
                 control.UpdateVisual();
             }
             UpdateFormulaText();
+            DrawLines();
+        }
+
+        private void DrawLines()
+        {
+            LinesCanvas.Children.Clear();
+            if (gameManager.SelectedNumbers.Count < 2) return;
+
+            for (int i = 0; i < gameManager.SelectedNumbers.Count - 1; i++)
+            {
+                var currentNumber = gameManager.SelectedNumbers[i];
+                var nextNumber = gameManager.SelectedNumbers[i + 1];
+                
+                var currentControl = numberControls.First(c => c.Node == currentNumber);
+                var nextControl = numberControls.First(c => c.Node == nextNumber);
+
+                // Получаем позиции элементов относительно GameFieldBorder
+                var currentPos = currentControl.TransformToAncestor(GameFieldBorder)
+                    .Transform(new Point(currentControl.ActualWidth / 2, currentControl.ActualHeight / 2));
+                var nextPos = nextControl.TransformToAncestor(GameFieldBorder)
+                    .Transform(new Point(nextControl.ActualWidth / 2, nextControl.ActualHeight / 2));
+
+                var line = new Line
+                {
+                    Stroke = new SolidColorBrush(Color.FromRgb(33, 150, 243)), 
+                    StrokeThickness = 4,
+                    X1 = currentPos.X,
+                    Y1 = currentPos.Y,
+                    X2 = nextPos.X,
+                    Y2 = nextPos.Y,
+                    StrokeStartLineCap = PenLineCap.Round,
+                    StrokeEndLineCap = PenLineCap.Round
+                };
+
+                LinesCanvas.Children.Add(line);
+            }
         }
 
         private void UpdateFormulaText()
@@ -196,8 +233,16 @@ namespace wpfNumberPath
                 FormulaText.Foreground = new SolidColorBrush(Color.FromRgb(180, 180, 180));
                 return;
             }
-            int sum = gameManager.SelectedNumbers.Sum(n => n.Value);
-            FormulaText.Text = string.Join(" + ", gameManager.SelectedNumbers.Select(n => n.Value)) + " = " + sum;
+
+            if (isGameMode)
+            {
+                FormulaText.Text = string.Join(" + ", gameManager.SelectedNumbers.Select(n => n.Value));
+            }
+            else
+            {
+                int sum = gameManager.SelectedNumbers.Sum(n => n.Value);
+                FormulaText.Text = string.Join(" + ", gameManager.SelectedNumbers.Select(n => n.Value)) + " = " + sum;
+            }
             FormulaText.Foreground = new SolidColorBrush(Color.FromRgb(34, 34, 34));
         }
 
